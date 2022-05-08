@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Looking Flowers';
+    src: local('Looking Flowers Script Pro'), local('Looking-Flowers-Script-Pro'),
+        url('LookingFlowers-ScriptPro.woff2') format('woff2'),
+        url('LookingFlowers-ScriptPro.woff') format('woff'),
+        url('LookingFlowers-ScriptPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

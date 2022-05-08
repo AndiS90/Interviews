@@ -1,0 +1,96 @@
+@import url("./fonts/LookingFlowers-ScriptPro/style.css");
+
+:root {
+   --btnColor: rgb(131,89,153);
+   --fontColor: rgb(79,37,96);
+}
+
+::selection {
+    background-color: rgb(245, 235, 219);
+    color: rgb(216, 95, 186);
+}
+
+html {
+    font-size: 1em;
+}
+
+.container{
+
+max-width: fit-content;
+}
+
+.title{
+    color: var(--fontColor);
+    text-align: center;
+    font-family: 'Looking Flowers';
+}
+
+
+.imageBox{
+    height: 80vh;
+    width:100vw;
+    display: flex;   
+    flex-flow: column wrap;
+    gap: 7px 7px;
+
+}
+
+.imageOne{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    max-height:85vh;
+    max-width: 30vw;
+    overflow: hidden;
+}
+
+.imageTwo{
+    max-height: 39.5vh;
+    max-width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+}
+
+.image2{
+    max-width: 30vw;
+}
+
+.imageThree{
+    max-height: 39.5vh;
+    max-width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    overflow: hidden;
+}
+
+.image3{
+    max-width: 30vw;
+}
+
+.imageFour{
+    display: flex;
+    justify-content: center;
+    max-height:85vh;
+    max-width: 28vw;
+    overflow: hidden;
+}
+
+
+
+.buttonBox{
+    margin-top: 25px;
+    display:flex;
+    justify-content: center;
+}
+
+.button{
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: var(--btnColor);
+    border: 2px solid var(--btnColor);
+    border-radius: 25px;
+    color: white;
+}
